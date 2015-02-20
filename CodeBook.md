@@ -3,27 +3,113 @@
 
 1. *subject* [2]
 
-        Unique ID code of the subject
-              1..30 Integer assigned to each subject
+        ID code of the subject
+              1..30 .Unique integer assigned to each subject
 
-2. tBodyAcc-mean()-X  [
-2	2	tBodyAcc-mean()-Y
-3	3	tBodyAcc-mean()-Z
-4	4	tBodyAcc-std()-X
-5	5	tBodyAcc-std()-Y
-6	6	tBodyAcc-std()-Z
-41	41	tGravityAcc-mean()-X
-42	42	tGravityAcc-mean()-Y
-43	43	tGravityAcc-mean()-Z
-44	44	tGravityAcc-std()-X
-45	45	tGravityAcc-std()-Y
-46	46	tGravityAcc-std()-Z
-81	81	tBodyAccJerk-mean()-X
-82	82	tBodyAccJerk-mean()-Y
-83	83	tBodyAccJerk-mean()-Z
-84	84	tBodyAccJerk-std()-X
-85	85	tBodyAccJerk-std()-Y
-86	86	tBodyAccJerk-std()-Z
+2. *activity* [18]
+
+        Activity done by the subject during the sensor reading
+              1. WALKING
+              2. WALKING_UPSTAIRS
+              3. WALKING_DOWNSTAIRS
+              4. SITTING
+              5. STANDING
+              6.LAYING
+
+3. *tBodyAcc-mean()-X* [10]
+
+        Mean of the triaxial body linear acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+4. *tBodyAcc-mean()-Y* [10]
+
+        Mean of the triaxial body linear acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+5. *tBodyAcc-mean()-Z* [10]
+
+        Mean of the triaxial body linear acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+6. *tBodyAcc-std()-X* [10]
+
+        Standard deviation of the triaxial body linear acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+7. *tBodyAcc-std()-Y* [10]
+
+        Standard deviation of the triaxial body linear acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+8. *tBodyAcc-std()-Z* [10]
+
+        Standard deviation of the triaxial body linear acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+9. *tGravityAcc-mean()-X* [10]
+
+        Mean of the triaxial graviational acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+10. *tGravityAcc-mean()-Y* [10]
+
+        Mean of the triaxial graviational acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+11. *tGravityAcc-mean()-Z* [10]
+
+        Mean of the triaxial graviational acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+12. *tGravityAcc-std()-X* [10]
+
+        Standard deviation of the triaxial graviational acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+13. *tGravityAcc-std()-Y* [10]
+
+        Standard deviation of the triaxial graviational acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+14. *tGravityAcc-std()-Z* [10]
+
+        Standard deviation of the triaxial graviational acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+15. *tBodyAccJerk-mean()-X* [10]
+
+        Derived in time triaxial body linear acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+16. *tBodyAccJerk-mean()-Y* [10]
+
+        Derived in time triaxial body linear acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+17. *tBodyAccJerk-mean()-Z* [10]
+
+        Derived in time triaxial body linear acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+18. *tBodyAccJerk-std()-X* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration component, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+19. *tBodyAccJerk-std()-Y* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration component, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+20. *tBodyAccJerk-std()-Z* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration component, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+
+
+
+
 121	121	tBodyGyro-mean()-X
 122	122	tBodyGyro-mean()-Y
 123	123	tBodyGyro-mean()-Z
