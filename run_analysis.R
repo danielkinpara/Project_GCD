@@ -1,7 +1,7 @@
 ###########################################################################################
 #
 # This script reads the dataset of the project "Human Activity Recognition Using
-# Smartphones Data Set". The outpu is a dataframe named "resultado". It contains the mean
+# Smartphones Data Set". The output is a dataframe named "resultado". It contains the mean
 # of each of the 66 variables (mean & std) for each activity of a given subject. Details
 # of the project can be found at the link below:
 #
@@ -24,7 +24,7 @@
 #
 ###########################################################################################
 
-## Set working directory
+## Sets working directory
 
 setwd("~/UCI HAR Dataset")
 
