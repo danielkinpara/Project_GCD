@@ -30,25 +30,25 @@ setwd("~/UCI HAR Dataset")
 
 ## Test Group
 
-tVariaveis <- read.table("features.txt")                                # Variable names;
+tVariaveis <- read.table("features.txt")                                # Variable names.
 tSujeitos <- read.table("./test/subject_test.txt",
-                        col.names = "subject")                          # Subjects list;
-tAtividades <- read.table("./test/y_test.txt", col.names = "activity")  # Activities list;
-tDados <- read.table("./test/X_test.txt", col.names = tVariaveis[,2])   # Cellphone 
-                                                                        # sensors readings;
+                        col.names = "subject")                          # Subjects list.
+tAtividades <- read.table("./test/y_test.txt", col.names = "activity")  # Activities list.
+tDados <- read.table("./test/X_test.txt", col.names = tVariaveis[,2])   # Smartphone's 
+                                                                        # sensors readings.
 dadosTeste <- cbind(tSujeitos, tAtividades ,tDados)                     # Merges subjects,
-                                                                        # activities and
+                                                                        # activities, and
                                                                         # sensors data.
 ## Training Group
 
 rSujeitos <- read.table("./train/subject_train.txt",
-                        col.names = "subject")                          # Subjects list;
+                        col.names = "subject")                          # Subjects list.
 rAtividades <- read.table("./train/y_train.txt",
-                          col.names = "activity")                       # Activities list;
-rDados <- read.table("./train/X_train.txt", col.names = tVariaveis[,2]) # Cellphone
-                                                                        # sensors readings;
+                          col.names = "activity")                       # Activities list.
+rDados <- read.table("./train/X_train.txt", col.names = tVariaveis[,2]) # Smartphone's
+                                                                        # sensors readings.
 dadosTreino <- cbind(rSujeitos, rAtividades ,rDados)                    # Merges subjects,
-                                                                        # activities and
+                                                                        # activities, and
                                                                         # sensors data.
 
 ## Merges both groups
@@ -63,7 +63,7 @@ meanStd <- sort(c(grep("mean()", tVariaveis[,2], fixed = TRUE),
                                                                         # a total of 66
                                                                         # variables.
 
-dadosMeanStd <- dados[, c(1, 2, meanStd + 2)]                           # Subset dados
+dadosMeanStd <- dados[, c(1, 2, meanStd + 2)]                           # Subsets dados
                                                                         # (it adds 2 due
                                                                         # to Subject and
                                                                         # Activity columns).
@@ -79,7 +79,7 @@ dadosMeanStd[,2] <- as.character(factor(unlist(dadosMeanStd[,"activity"]),
 library(reshape2)                                                       # Loads module.
 molten <- melt(dadosMeanStd, id = c("subject", "activity"))             # Melts data.
 resultado <- dcast(molten, subject + activity ~ variable, mean)         # Casts a
-                                                                        # dataframe with
+                                                                        # dataframe of
                                                                         # means of each
                                                                         # variable for
                                                                         # each activity
