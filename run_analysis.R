@@ -21,6 +21,10 @@
 # Before run this script, you must place it inside the "UCI HAR Dataset" folder, the same
 # folder where the folders "train" and "test" are. The working directory must be set to
 # this "UCI HAR Dataset" folder.
+# The package "reshape2" must be already installed. If you didn't do it, type in the
+# prompt command screen:
+#
+# install.packages("reshape2")
 #
 ###########################################################################################
 
