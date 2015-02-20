@@ -31,21 +31,21 @@ setwd("~/UCI HAR Dataset")
 ## Test Group
 
 tVariaveis <- read.table("features.txt")                                # Variable names.
-tSujeitos <- read.table("./test/subject_test.txt",
+tSujeitos <- read.table("~/test/subject_test.txt",
                         col.names = "subject")                          # Subjects list.
-tAtividades <- read.table("./test/y_test.txt", col.names = "activity")  # Activities list.
-tDados <- read.table("./test/X_test.txt", col.names = tVariaveis[,2])   # Smartphone's 
+tAtividades <- read.table("~/test/y_test.txt", col.names = "activity")  # Activities list.
+tDados <- read.table("~/test/X_test.txt", col.names = tVariaveis[,2])   # Smartphone's 
                                                                         # sensors readings.
 dadosTeste <- cbind(tSujeitos, tAtividades ,tDados)                     # Merges subjects,
                                                                         # activities, and
                                                                         # sensors data.
 ## Training Group
 
-rSujeitos <- read.table("./train/subject_train.txt",
+rSujeitos <- read.table("~/train/subject_train.txt",
                         col.names = "subject")                          # Subjects list.
-rAtividades <- read.table("./train/y_train.txt",
+rAtividades <- read.table("~/train/y_train.txt",
                           col.names = "activity")                       # Activities list.
-rDados <- read.table("./train/X_train.txt", col.names = tVariaveis[,2]) # Smartphone's
+rDados <- read.table("~/train/X_train.txt", col.names = tVariaveis[,2]) # Smartphone's
                                                                         # sensors readings.
 dadosTreino <- cbind(rSujeitos, rAtividades ,rDados)                    # Merges subjects,
                                                                         # activities, and
