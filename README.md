@@ -1,6 +1,6 @@
 # Project_GCD
 
-**Getting and Cleaning Data**
+##Getting and Cleaning Data##
 
 **Introduction**
 
