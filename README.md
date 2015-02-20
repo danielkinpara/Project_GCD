@@ -12,12 +12,14 @@ The repository encompasses three major documents:
 2. The R script "run_analysis.R";
 3. The Code Book with the description of the variables used in the script and in the database.
 
+
 *Objective*
 
 The script *run_analysis.R* takes the dataset obtained in the study *Human Activity Recognition Using Smartphones Data Set* carried out by Reyes-Ortiz, Anguita, Ghio, Oneto and Parra (2013) and outputs a file named *run_analysis.txt*.
 
-The dataset is splitted into two groups: *test* and *train*. The total dataset has 561 different sensor readings of a smartphone installed in the waist of 30 volunteers. Each subject performs six activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying.
+The dataset is splitted into two groups: *test* and *train*. The total dataset has 561 different sensor readings refered to accelaration and angular velocity from a smartphone installed in the waist of 30 volunteers. Each subject performs six activities: walking, walking upstairs, walking downstairs, sitting, standing, and laying.
 
+The script merges the two groups, select 66 variables related to mean and standard deviation of some of the sensor readings.
 
 *Literature*
 
