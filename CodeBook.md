@@ -193,7 +193,8 @@
 
 38. *tBodyAccJerkMag-std()* [10]
 
-        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear acceleration
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear
+        acceleration
               -1.000000000..1.000000000 .Normalized standard deviation
 
 39. *tBodyGyroMag-mean()* [10]
@@ -263,17 +264,20 @@
 
 52. *fBodyAccJerk-std()-X* [10]
 
-        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis X
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain,
+        axis X
               -1.000000000..1.000000000 .Normalized standard deviation
 
 53. *fBodyAccJerk-std()-Y* [10]
 
-        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis Y
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain,
+        axis Y
               -1.000000000..1.000000000 .Normalized standard deviation
 
 54. *fBodyAccJerk-std()-Z* [10]
 
-        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis Z
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain,
+        axis Z
               -1.000000000..1.000000000 .Normalized standard deviation
 
 55. *fBodyGyro-mean()-X* [10]
@@ -313,17 +317,20 @@
 
 62. *fBodyAccMag-std()* [10]
 
-        Standard deviation of the estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+        Standard deviation of the estimated magnitude of the three-dimensional body linear acceleration in the
+        frequency domain
               -1.000000000..1.000000000 .Normalized standard deviation
 
 63. *fBodyBodyAccJerkMag-mean()* [10]
 
-        Mean of the derived in time estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+        Mean of the derived in time estimated magnitude of the three-dimensional body linear acceleration in the
+        frequency domain
               -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
 
 64. *fBodyBodyAccJerkMag-std()* [10]
 
-        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear
+        acceleration in the frequency domain
               -1.000000000..1.000000000 .Normalized standard deviation
 
 65. *fBodyBodyGyroMag-mean()* [10]
@@ -333,15 +340,18 @@
 
 66. *fBodyBodyGyroMag-std()* [10]
 
-        Standard deviation of the estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+        Standard deviation of the estimated magnitude of the three-dimensional body angular velocity in the
+        frequency domain
               -1.000000000..1.000000000 .Normalized standard deviation
 
 67. *fBodyBodyGyroJerkMag-mean()* [10]
 
-        Mean of the derived in time estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+        Mean of the derived in time estimated magnitude of the three-dimensional body angular velocity in the
+        frequency domain
               -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (radians per second)
 
 68. *fBodyBodyGyroJerkMag-std()* [10]
 
-        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity
+        in the frequency domain
               -1.000000000..1.000000000 .Normalized standard deviation
