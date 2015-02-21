@@ -214,7 +214,8 @@
 
 42. *tBodyGyroJerkMag-std()* [10]
 
-        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular
+        velocity
               -1.000000000..1.000000000 .Normalized standard deviation
 
 43. *fBodyAcc-mean()-X* [10]
@@ -352,6 +353,6 @@
 
 68. *fBodyBodyGyroJerkMag-std()* [10]
 
-        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity
-        in the frequency domain
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular
+        velocity in the frequency domain
               -1.000000000..1.000000000 .Normalized standard deviation
