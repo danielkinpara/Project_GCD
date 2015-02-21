@@ -106,55 +106,242 @@
         Standard deviation of the derived in time triaxial body linear acceleration component, axis Z
               -1.000000000..1.000000000 .Normalized standard deviation
 
+21. *tBodyGyro-mean()-X* [10]
 
+        Mean of the triaxial body angular velocity component, axis X
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
 
+22. *tBodyGyro-mean()-Y* [10]
 
+        Mean of the triaxial body angular velocity component, axis Y
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
 
-121	121	tBodyGyro-mean()-X
-122	122	tBodyGyro-mean()-Y
-123	123	tBodyGyro-mean()-Z
-124	124	tBodyGyro-std()-X
-125	125	tBodyGyro-std()-Y
-126	126	tBodyGyro-std()-Z
-161	161	tBodyGyroJerk-mean()-X
-162	162	tBodyGyroJerk-mean()-Y
-163	163	tBodyGyroJerk-mean()-Z
-164	164	tBodyGyroJerk-std()-X
-165	165	tBodyGyroJerk-std()-Y
-166	166	tBodyGyroJerk-std()-Z
-201	201	tBodyAccMag-mean()
-202	202	tBodyAccMag-std()
-214	214	tGravityAccMag-mean()
-215	215	tGravityAccMag-std()
-227	227	tBodyAccJerkMag-mean()
-228	228	tBodyAccJerkMag-std()
-240	240	tBodyGyroMag-mean()
-241	241	tBodyGyroMag-std()
-253	253	tBodyGyroJerkMag-mean()
-254	254	tBodyGyroJerkMag-std()
-266	266	fBodyAcc-mean()-X
-267	267	fBodyAcc-mean()-Y
-268	268	fBodyAcc-mean()-Z
-269	269	fBodyAcc-std()-X
-270	270	fBodyAcc-std()-Y
-271	271	fBodyAcc-std()-Z
-345	345	fBodyAccJerk-mean()-X
-346	346	fBodyAccJerk-mean()-Y
-347	347	fBodyAccJerk-mean()-Z
-348	348	fBodyAccJerk-std()-X
-349	349	fBodyAccJerk-std()-Y
-350	350	fBodyAccJerk-std()-Z
-424	424	fBodyGyro-mean()-X
-425	425	fBodyGyro-mean()-Y
-426	426	fBodyGyro-mean()-Z
-427	427	fBodyGyro-std()-X
-428	428	fBodyGyro-std()-Y
-429	429	fBodyGyro-std()-Z
-503	503	fBodyAccMag-mean()
-504	504	fBodyAccMag-std()
-516	516	fBodyBodyAccJerkMag-mean()
-517	517	fBodyBodyAccJerkMag-std()
-529	529	fBodyBodyGyroMag-mean()
-530	530	fBodyBodyGyroMag-std()
-542	542	fBodyBodyGyroJerkMag-mean()
-543	543	fBodyBodyGyroJerkMag-std()
+23. *tBodyGyro-mean()-Z* [10]
+
+        Mean of the triaxial body angular velocity component, axis Z
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+24. *tBodyGyro-std()-X* [10]
+
+        Standard deviation of the triaxial body angular velocity component, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+25. *tBodyGyro-std()-Y* [10]
+
+        Standard deviation of the triaxial body angular velocity component, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+26. *tBodyGyro-std()-Z* [10]
+
+        Standard deviation of the triaxial body angular velocity component, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+27. *tBodyGyroJerk-mean()-X* [10]
+
+        Derived in time triaxial body angular velocity component, axis X
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+28. *tBodyGyroJerk-mean()-Y* [10]
+
+        Derived in time triaxial body angular velocity component, axis Y
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+29. *tBodyGyroJerk-mean()-Z* [10]
+
+        Derived in time triaxial body angular velocity component, axis Z
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+30. *tBodyGyroJerk-std()-X* [10]
+
+        Standard deviation of the derived in time triaxial body angular velocity component, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+31. *tBodyGyroJerk-std()-Y* [10]
+
+        Standard deviation of the derived in time triaxial body angular velocity component, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+32. *tBodyGyroJerk-std()-Z* [10]
+
+        Standard deviation of the derived in time triaxial body angular velocity component, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+33. *tBodyAccMag-mean()* [10]
+
+        Mean of the estimated magnitude of the three-dimensional body linear acceleration
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
+
+34. *tBodyAccMag-std()* [10]
+
+        Standard deviation of the estimated magnitude of the three-dimensional body linear acceleration
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+35. *tGravityAccMag-mean()* [10]
+
+        Mean of the estimated magnitude of the three-dimensional gravitational acceleration
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
+
+36. *tGravityAccMag-std()* [10]
+
+        Standard deviation of the estimated magnitude of the three-dimensional gravitational acceleration
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+37. *tBodyAccJerkMag-mean()* [10]
+
+        Mean of the derived in time estimated magnitude of the three-dimensional body linear acceleration
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
+
+38. *tBodyAccJerkMag-std()* [10]
+
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear acceleration
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+39. *tBodyGyroMag-mean()* [10]
+
+        Mean of the estimated magnitude of the three-dimensional body angular velocity
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (radians per second)
+
+40. *tBodyGyroMag-std()* [10]
+
+        Standard deviation of the estimated magnitude of the three-dimensional body angular velocity
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+41. *tBodyGyroJerkMag-mean()* [10]
+
+        Mean of the derived in time estimated magnitude of the three-dimensional body angular velocity
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (radians per second)
+
+42. *tBodyGyroJerkMag-std()* [10]
+
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+43. *fBodyAcc-mean()-X* [10]
+
+        Mean of the triaxial body linear acceleration component in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+44. *fBodyAcc-mean()-Y* [10]
+
+        Mean of the triaxial body linear acceleration component in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+45. *fBodyAcc-mean()-Z* [10]
+
+        Mean of the triaxial body linear acceleration component in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+46. *fBodyAcc-std()-X* [10]
+
+        Standard deviation of the triaxial body linear acceleration component in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+47. *fBodyAcc-std()-Y* [10]
+
+        Standard deviation of the triaxial body linear acceleration component in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+48. *fBodyAcc-std()-Z* [10]
+
+        Standard deviation of the triaxial body linear acceleration component in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+49. *fBodyAccJerk-mean()-X* [10]
+
+        Derived in time triaxial body linear acceleration component in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+50. *fBodyAccJerk-mean()-Y* [10]
+
+        Derived in time triaxial body linear acceleration component in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+51. *fBodyAccJerk-mean()-Z* [10]
+
+        Derived in time triaxial body linear acceleration component in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized "G" force (9.80665 meters per squared second)
+
+52. *fBodyAccJerk-std()-X* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+53. *fBodyAccJerk-std()-Y* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+54. *fBodyAccJerk-std()-Z* [10]
+
+        Standard deviation of the derived in time triaxial body linear acceleration in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+55. *fBodyGyro-mean()-X* [10]
+
+        Mean of the triaxial body angular velocity component in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+56. *fBodyGyro-mean()-Y* [10]
+
+        Mean of the triaxial body angular velocity component in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+57. *fBodyGyro-mean()-Z* [10]
+
+        Mean of the triaxial body angular velocity component in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized angular velocity (radians per second)
+
+58. *fBodyGyro-std()-X* [10]
+
+        Standard deviation of the triaxial body angular velocity in the frequency domain, axis X
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+59. *fBodyGyro-std()-Y* [10]
+
+        Standard deviation of the triaxial body angular velocity in the frequency domain, axis Y
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+60. *fBodyGyro-std()-Z* [10]
+
+        Standard deviation of the triaxial body angular velocity in the frequency domain, axis Z
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+61. *fBodyAccMag-mean()* [10]
+
+        Mean of the estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
+
+62. *fBodyAccMag-std()* [10]
+
+        Standard deviation of the estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+63. *fBodyBodyAccJerkMag-mean()* [10]
+
+        Mean of the derived in time estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (G force)
+
+64. *fBodyBodyAccJerkMag-std()* [10]
+
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body linear acceleration in the frequency domain
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+65. *fBodyBodyGyroMag-mean()* [10]
+
+        Mean of the estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (radians per second)
+
+66. *fBodyBodyGyroMag-std()* [10]
+
+        Standard deviation of the estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+              -1.000000000..1.000000000 .Normalized standard deviation
+
+67. *fBodyBodyGyroJerkMag-mean()* [10]
+
+        Mean of the derived in time estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+              -1.000000000..1.000000000 .Normalized magnitude obtained using Euclidian norm (radians per second)
+
+68. *fBodyBodyGyroJerkMag-std()* [10]
+
+        Standard deviation of the derived in time estimated magnitude of the three-dimensional body angular velocity in the frequency domain
+              -1.000000000..1.000000000 .Normalized standard deviation
